@@ -1,0 +1,147 @@
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 40px;
+  color:blue;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: right;
+  padding-top: 15px;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+li {
+  text-align: right;
+  list-style: none;
+}
+
+body {
+  margin: 50px 100px 50px 100px;
+}
+
+a {
+  color: #007cb9;
+  text-decoration: none;
+}
+
+a:hover {
+  color:blueviolet;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 1100px;
+}
+
+.search {
+  margin-left: 70px;
+  padding-left: 70px;
+  padding-top: 10px;
+}
+
+.card-body {
+  text-align: center;
+  padding-top: 30px;
+}
+.weather-forecast-day {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.forecast-temperature {
+  padding: 10px 0px 0px 0px;
+}
+
+.forecast-temperature-max {
+  font-size: 20px;
+}
+
+.forecast-temperature-min {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.date {
+  text-align: left;
+}
+
+.metrics {
+  position: relative;
+  font-size: 20px;
+  top: -34px;
+  line-height: 12px;
+  text-decoration: solid;
+}
+
+.submitCity {
+  background-colo;r:red
+  color: #fff;
+  padding: 5px 15px 5px 15px;
+  transition: ease-in-out 200ms;
+}
+
+.submitCity:hover {
+  background-color:greenyellow;
+}
+
+.form-control {
+  border-radius: 25px;
+}
+
+.current-position {
+  color:green;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.current-position:hover {
+  color: #005689;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.code {
+  padding-top: 20px;
+  font-size: small;
+}
+
+.weather-overview img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+  float: left;
+}
+
+.weather-overview strong {
+  font-size: 65px;
+  line-height: 1;
+  padding: 0px;
+  font-weight: 400;
+}
+
+.metrics .active {
+  color: #212529;
+  cursor: default;
+}
+
+.metrics .active:hover {
+  text-decoration: none;
+}
